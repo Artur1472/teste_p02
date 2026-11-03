@@ -10,8 +10,18 @@ ThemeData darkTheme = ThemeData(
   ),
 
   textTheme: TextTheme(
-    bodyLarge: TextStyle(color: Colors.white),
-    bodyMedium: TextStyle(color: Colors.white),
-    bodySmall: TextStyle(color: Colors.white),
+    bodySmall: TextStyle(
+      fontFamily: "montserrat regular",
+      fontSize: 16,
+    ),
+    
+    bodyMedium: TextStyle(
+      fontFamily: "montserrat bold",
+      fontSize: 20,
+    ),
+    bodyLarge: TextStyle(
+      fontFamily: "montserrat black",
+      fontSize: 24,
+    ),
   ),
 );
